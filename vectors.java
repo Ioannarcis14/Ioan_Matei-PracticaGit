@@ -44,7 +44,6 @@ public class vectors {
 			if (arr.length == 1) {
             	elem = arr[0];
             }
-			
 			for(int x=1; x<arr.length; x++){
 	            //count the successive elements as long as they are same
 	            if(arr[x] == arr[x-1])
